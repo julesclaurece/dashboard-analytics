@@ -59,6 +59,20 @@ export default function App() {
         </div>
       </aside>
 
+      {/* Mobile bottom nav */}
+      <nav className="mobile-nav">
+        {NAV.map((item) => (
+          <button
+            key={item.id}
+            className={`mobile-nav-item ${page === item.id ? "active" : ""}`}
+            onClick={() => setPage(item.id)}
+          >
+            <span className="mobile-nav-icon">{item.icon}</span>
+            <span className="mobile-nav-label">{item.label}</span>
+          </button>
+        ))}
+      </nav>
+
       <main className="main">
         <header className="page-header">
           <div>
