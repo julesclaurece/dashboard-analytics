@@ -2,8 +2,6 @@
 
 A full-stack analytics dashboard built with **FastAPI** and **React**. Displays real-time business metrics — revenue, orders, users — with interactive charts and period filters.
 
-![Dashboard Preview](https://via.placeholder.com/900x500/080b12/6366f1?text=Dashboard+Analytics)
-
 ## Features
 
 - **KPI Cards** — Revenue, Orders, Users, Avg Order Value with growth % vs previous period
